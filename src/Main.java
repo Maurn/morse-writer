@@ -1,3 +1,5 @@
+import morse.MorseWriter;
+
 public class Main {
     public static void main(String[] args) {
         MorseWriter morseWriter = new MorseWriter();
