@@ -3,7 +3,8 @@ import java.util.Map;
 public class Alphabet {
     private static Map<Character, String> map = Map.of(
             'S', ". . .",
-            'O', "--- --- ---"
+            'O', "--- --- ---",
+            ' ', "       "
     );
 
     public static String interpretChar(char c){
